@@ -1,0 +1,5 @@
+/.hg/*
+/build/*
+/nbproject/private/*
+/dist/*
+*.~pck

@@ -1,0 +1,15 @@
+
+plsqldiff
+* How to build
+The source is a netbeans project.
+Additionally there is the simple Ant build file "plsqldiff.xml".
+This file does not depend on Netbeans.
+
+The generated jar dist\plsqldiff.jar is executable, the entry class is compare.Main.
+
+* How to build
+set java_home=c:\Program Files\Java\jdk1.6.0_39
+"C:\Program Files\NetBeans 7.3\java\ant\bin\ant" -f .\plsqldiff.xml
+
+* How to run
+"C:\Program Files\Java\jdk1.6.0_39/bin/java" -jar "C:\Users\rav\Documents\JAVA\plsqldiff\dist\plsqldiff.jar"
